@@ -87,3 +87,5 @@ Classification:
 
 ## Summary
 We were not able to achieve our goal of a model with 75% accuracy. Our initial model managed to achieve an accouracy of 72.9% which is just decent with room for improvement. To improve the model, the Application_type, and Classification columns from the data were adjusted to combine "rare occurances" in the data into one category so that they individually had less impact on model. Additionally, we increased the number of neurons, layers, and epochs in the second model to help capture more patters in the data and allow for more learning cycles this did not help. Instead, we saw a small decrease in accuracy from 72.9% to 72.4%. 
+
+Another approach to this problem could have been to use Logistic Regression. Logistic regression is usually a simple means to model binary problems. Furthermore, Logistic Regression makes for a good baseline for comparing models so even if it did not improve upon our current model, it could have provided insight as to how well our model did. 
